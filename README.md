@@ -1,48 +1,38 @@
-Estructura de Componentes
-Avatar Component (Avatar.jsx):
+Components
+1. Avatar
+The Avatar component displays my profile picture.
 
-Utiliza una imagen circular.
-Importa estilos desde 'Avatar.css'.
-MyInfo Component (MyInfo.jsx):
+2. MyInfo
+The MyInfo component presents my name and professional title as a FullStack Developer.
 
-Contiene información personal y profesional.
-Estilos centrados usando la clase 'MyInfo'.
-SocialNetwork Component (SocialNetworks.jsx):
+3. SocialNetworks
+The SocialNetworks component includes buttons to connect with me on various social media platforms.
 
-Contiene botones de redes sociales.
-Estilos centrados usando la clase 'SocialNetwork'.
+4. AboutMe
+The AboutMe component provides a brief description of myself, highlighting my passion for technology and my aspirations as a 17-year-old junior FullStack Developer.
 
-AboutMe Component (AboutMe.jsx):
+5. Footer
+The Footer component displays icons linked to my profiles on different social media platforms.
 
-Describe al programador junior.
-Estilos centrados usando la clase 'AboutMe'.
-Estilo Global (App.css)
-Centra todos los elementos utilizando el contenedor principal con la clase 'container-general'.
-Estilos generales para mejorar la apariencia y legibilidad.
+App Structure
+The components are unified in App.jsx, where they are imported and arranged to create the main structure of the portfolio. The App.css file provides styling for the entire application.
 
+Styling
+Styling is applied through the App.css file, defining the appearance of each component and maintaining a cohesive visual theme. Key styling features include:
 
-Estilo del Footer (Footer.css)
+Responsive design with a maximum width of 200px for the container.
+Rounded borders for images and specific elements.
+Consistent text alignment and spacing for a clean and organized layout.
+Unique background colors and padding to enhance visual appeal.
+How to Run
+To run the application locally, follow these steps:
 
-Componente Footer con íconos de redes sociales.
-Utiliza flexbox para alinear los íconos uno al lado del otro.
-Establece un color de fondo y texto.
-
-
-Uso en App Component (App.jsx)
-
-Importa y utiliza los componentes mencionados.
-Estructura general centrada con la clase 'container-general'.
-
-Notas
-Ajusta tamaños, colores y márgenes según tus preferencias.
-Los estilos se aplican a través de archivos CSS específicos para cada componente.
-
-Comandos :
- Npm i -> para instalar dependencias
- Npm run dev -> para correr el proyecto 
+Clone the repository to your local machine.
+Navigate to the project directory in the terminal.
+Run npm install to install the necessary dependencies.
+Run npm run dev to launch the development server.
+Open your browser and go to http://localhost:5173.
 
  ![Alt text](image.png)
-
-
 
 
