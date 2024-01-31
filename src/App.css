@@ -1,1 +1,86 @@
 
+.container {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  
+  .container img {
+    width: 80%;
+    height: 170px;
+    border-radius: 10%;
+  }
+  
+  .MyInfo {
+    text-align: center;
+  }
+  
+  .MyInfo p {
+    margin: 5px 0;
+    color: white;
+  }
+  
+  .SocialNetwork {
+    text-align: center;
+  }
+  
+  .SocialNetwork button {
+    background-color:white;
+    color:black;
+    padding: 5px 50px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .AboutMe {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .AboutMe h3 {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .AboutMe p {
+    margin: 5px 0;
+    color: white;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #9c9a9a;
+    margin: 20px;
+    padding: 0;
+    
+  }
+  /* Footer.css */
+
+.Footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #646363; /* color de fondo, ajusta según tus preferencias */
+    color: #fff; /* color del texto, ajusta según tus preferencias */
+    padding: 5px 100px; /* ajusta según tus preferencias */
+    border-radius:10px ;
+    gap: 7px;
+  }
+  
+  .Footer img {
+    width: 20px; /* ajusta el tamaño según tus preferencias */
+    margin: 0 5px; /* ajusta el margen entre los íconos según tus preferencias */
+  }
+  
+  
+  #container-general {
+    border-radius: 20px;
+    margin-left: 510px;
+    padding: 25px;
+    background-color: rgb(58, 51, 51);
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  
