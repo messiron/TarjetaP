@@ -1,0 +1,29 @@
+* {
+    overflow: hidden;
+  }
+  
+  body {
+    margin: 20px 0; 
+    background-color: rgb(36, 35, 35);
+  }
+  
+  .container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    background-color: rgb(70, 62, 62);
+    border-radius: 10px;
+    padding: 20px; 
+    height: 80vh;
+  }
+  
+  .container img {
+    border-radius: 5px;
+    width: 200px;
+    height: 250px;
+    margin-bottom: 20px; 
+  }
+  
